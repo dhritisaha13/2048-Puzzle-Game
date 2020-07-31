@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <title>2048 Game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>2048 Puzzle Game</h1>
+        <p id="score">Score : 0</p>
+        <div id="size-bloc">
+            <p id="size-title">Size : </p>
+            <input id="size" type="number" value="4">
+            <input id="change-size" type="button" value="Ok">
+            <input id="new-game" type="button" value="New Game">
+            <div class="clear"></div>
+        </div>
+        <div id="canvas-bloc">
+            <canvas id="canvas" width="500" height="500"></canvas>
+            <p id="how-to-play"><b>HOW TO PLAY :</b> Use your <b>arrow keys</b> to move the tiles. When two tiles with the same number touch, they <b>merge into one!</b>Join the numbers and get to the <b>2048 tile!</b>
+                <br>Created by <a href="https://dhritisahawebsite.netlify.app/"><b>Dhriti Saha</b></a>.    
+            </p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    
+    
+</html>
